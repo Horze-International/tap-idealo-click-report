@@ -1,0 +1,74 @@
+{
+    "properties": {
+      "SK": {
+        "type": [
+          "string"
+        ],
+        "description": "Surrogate Key - a hash made from timestamp and IP"
+      },
+      "Date": {
+        "type": [
+          "string"
+        ],
+        "format": "date-time",
+        "description": "Timestamp of the click"
+      },
+      "Product": {
+        "type": [
+          "null",
+          "string"
+        ],
+        "description": ""
+      },
+      "idealo Product ID": {
+        "type": [
+          "null",
+          "integer"
+        ],
+        "description": ""
+      },
+      "Category": {
+        "type": [
+          "null",
+          "string"
+        ],
+        "description": ""
+      },
+      "Customer-IP": {
+        "type": [
+          "string"
+        ],
+        "description": ""
+      },
+      "Click Type": {
+        "type": [
+          "string"
+        ],
+        "enum": ["Contact", "Offer", "Offer open catalogue"],
+        "description": ""
+      },
+      "Site/Partner": {
+        "type": [
+          "string"
+        ],
+        "description": ""
+      },
+      "Link": {
+        "type": [
+          "string"
+        ],
+        "description": ""
+      },
+      "Sku": {
+        "type": [
+          "null",
+          "string"
+        ],
+        "description": ""
+      }
+    },
+    "additionalProperties": false,
+    "type": [
+      "object"
+    ]
+  }

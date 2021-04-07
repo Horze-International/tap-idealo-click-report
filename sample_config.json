@@ -1,0 +1,8 @@
+{
+    "start_date": "2021-03-01T00:00:00Z",
+    "shop_id" : "your-shop-id",
+    "client_id" : "your-client-id",
+    "client_password" : "Your-password",
+    "user_agent": "tap-idealo-click-report <email@my_domain.com>",
+    "site": "IDEALO_DE"
+}
