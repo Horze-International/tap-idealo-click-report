@@ -2,7 +2,8 @@
 import os
 import singer
 from singer import metrics, utils, metadata
-from singer.catalog import Catalog, CatalogEntry, Schema
+from singer.catalog import Catalog, CatalogEntry
+from singer.schema import Schema
 from requests.exceptions import HTTPError
 from . import streams as streams_
 from .streams import STREAM_OBJECTS

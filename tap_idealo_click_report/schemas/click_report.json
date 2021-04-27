@@ -36,7 +36,8 @@
       },
       "Customer-IP": {
         "type": [
-          "string"
+          "string",
+          "null"
         ],
         "description": ""
       },
@@ -55,7 +56,8 @@
       },
       "Link": {
         "type": [
-          "string"
+          "string",
+          "null"
         ],
         "description": ""
       },
